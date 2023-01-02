@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/minireset.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="mobileyee" id="mobileyee">
+        You should not see this
+    </div>
+
+    <div class="card">
+        <div class="evaluation">
+            <img src="./assets/images/icon-star.svg" class="card-icon">
+
+            <h1 class="card-title">How did we do?</h1>
+
+            <p class="card-text">
+                Please let us know how we did with your support
+                request. All feedback is appreciated to help us<br>
+                improve our offering!
+            </p>
+
+            <div class="rating">
+                <div class="rating-item">
+                    <input type="radio" name="1" id="1" value="1">
+
+                    <label for="1">1</label>
+                </div>
+
+                <div class="rating-item">
+                    <input type="radio" name="2" id="2" value="2">
+
+                    <label for="2">2</label>
+                </div>
+
+                <div class="rating-item">
+                    <input type="radio" name="3" id="3" value="3">
+
+                    <label for="3">3</label>
+                </div>
+
+                <div class="rating-item">
+                    <input type="radio" name="4" id="4" value="4">
+
+                    <label for="4">4</label>
+                </div>
+                
+                <div class="rating-item">
+                    <input type="radio" name="5" id="5" value="5">
+
+                    <label for="5">5</label>
+                </div>
+            </div>
+
+            <button type="submit" id="submit" disabled>Submit</button>
+        </div>
+
+        <div class="thankyou">
+            <img src="./assets/images/illustration-thank-you.svg">
+
+            <div>
+                <span class="select-rating" id="select-rating">You selected 0 out of 5</span>
+            </div>
+
+            <h1 class="card-title">
+                Thank You!
+            </h1>
+            <p class="card-text" id="thank-you-text">
+                We appreciate you taking the time to give a rating.<br>
+                If you ever need more support, don’t hesitate to<br>
+                get in touch!
+            </p>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://kurama.is-a-good.dev/">404Kurama</a>.
+    </div>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
